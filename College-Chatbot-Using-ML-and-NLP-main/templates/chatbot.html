@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            position: relative;
+        }
+
+        .chat-container {
+            width: 350px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 2;
+        }
+        .chat-header {
+            background: #4A90E2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .dark-mode-toggle {
+            cursor: pointer;
+            font-size: 16px;
+            background: none;
+            border: none;
+            color: white;
+        }
+        .chat-box {
+            flex: 1;
+            padding: 10px;
+            height: 200px; /* initial height */
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            transition: height 0.3s ease-in-out; /* Smooth transition */
+        }
+        .chat-message {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+            max-width: 80%;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .user-message {
+            background: #4A90E2;
+            color: white;
+            align-self: flex-end;
+        }
+        .bot-message {
+            background: #EAEAEA;
+            color: black;
+            align-self: flex-start;
+        }
+        .typing-indicator {
+            font-style: italic;
+            color: gray;
+            margin-left: 10px;
+        }
+        .chat-input {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            background: white;
+        }
+        .chat-input textarea {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            resize: none;
+            outline: none;
+            height: 50px;
+        }
+        .chat-input button {
+            margin-left: 10px;
+            background: #4A90E2;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .dark-mode {
+            background: #222;
+            color: white;
+        }
+        .dark-mode .chat-container {
+            background: #333;
+        }
+        .dark-mode .chat-box {
+            background: #222;
+        }
+        .dark-mode .chat-input textarea {
+            background: #555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-text">
+
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            My Chatbot
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input">
+            <input id="user-input" type="text" placeholder="Type a message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            let inputField = document.getElementById("user-input");
+            let message = inputField.value.trim();
+            if (message === "") return;
+
+            let chatBox = document.getElementById("chat-box");
+            let userMessage = document.createElement("div");
+            userMessage.className = "chat-message user-message";
+            userMessage.textContent = message;
+            chatBox.appendChild(userMessage);
+
+            inputField.value = "";
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            let typingIndicator = document.createElement("div");
+            typingIndicator.className = "typing-indicator";
+            typingIndicator.textContent = "Bot is typing...";
+            chatBox.appendChild(typingIndicator);
+
+            // Dynamically adjust chat-box height as messages are added
+            let newHeight = chatBox.scrollHeight + 10; // increase by 10px
+            if (newHeight <= 600) { // limit height to a maximum of 600px
+                chatBox.style.height = newHeight + "px";
+            }
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `user_input=${encodeURIComponent(message)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                chatBox.removeChild(typingIndicator);
+                let botMessage = document.createElement("div");
+                botMessage.className = "chat-message bot-message";
+                botMessage.textContent = data.response;
+                chatBox.appendChild(botMessage);
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
