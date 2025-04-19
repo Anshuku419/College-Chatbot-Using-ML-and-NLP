@@ -1,0 +1,1216 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hey! How can I assist you?",
+                "Good to see you!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you",
+                "Goodbye",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "Much obliged"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "university",
+            "patterns": [
+                "cutm"
+            ],
+            "responses": [
+                "cutm' like centurion university",
+                "ChatGPT said:\n\u200BCenturion University of Technology and Management (CUTM) is a prominent private institution in India, with campuses in Odisha and Andhra Pradesh. Established in 2010, the university has gained recognition for its focus on technology and management education"
+            ]
+        },
+        {
+            "tag": "college_info",
+            "patterns": [
+                "Tell me about the college",
+                "What courses are available?",
+                "Available programs?",
+                "What does the college offer?"
+            ],
+            "responses": [
+                "Our college offers multiple programs in Science, Arts, Engineering, and Business."
+            ]
+        },
+        {
+            "tag": "admissions",
+            "patterns": [
+                "How do I apply?",
+                "Admission process?",
+                "How to get admission?",
+                "Entry requirements?"
+            ],
+            "responses": [
+                "You can apply online through our official website. Admissions are based on merit and entrance tests."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "What is the tuition fee?",
+                "How much does it cost?",
+                "Fee structure?",
+                "Cost of studying here?"
+            ],
+            "responses": [
+                "The tuition fee varies by program. Please visit our website for detailed fee structures."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "Are scholarships available?",
+                "How to apply for scholarships?",
+                "Scholarship options?"
+            ],
+            "responses": [
+                "Yes, we offer merit-based and need-based scholarships. Visit our financial aid section for details."
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Do you have hostels?",
+                "Accommodation facilities?",
+                "Can I stay on campus?",
+                "What are the hostel charges?"
+            ],
+            "responses": [
+                "Yes, we provide hostel facilities with different options. Fees depend on the type of accommodation."
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Is there a library?",
+                "Can I borrow books?",
+                "Library facilities?"
+            ],
+            "responses": [
+                "Yes, our college has a well-equipped library with thousands of books, journals, and online resources."
+            ]
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "Do you have a canteen?",
+                "Where can I get food on campus?",
+                "Cafeteria options?"
+            ],
+            "responses": [
+                "Yes, we have multiple cafeterias offering a variety of food at affordable prices."
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "Does the college offer placements?",
+                "What are the placement opportunities?",
+                "Do companies visit for hiring?"
+            ],
+            "responses": [
+                "Yes, our placement cell works with top companies to provide job opportunities to students."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "List of courses?",
+                "Available subjects?",
+                "What programs do you offer?"
+            ],
+            "responses": [
+                "We offer undergraduate and postgraduate programs in Engineering, Management, Arts, and Science."
+            ]
+        },
+        {
+            "tag": "faculty",
+            "patterns": [
+                "Who are the faculty members?",
+                "How qualified are the teachers?",
+                "Are professors experienced?"
+            ],
+            "responses": [
+                "Our faculty consists of highly experienced professors and industry experts."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How to contact the college?",
+                "Phone number of college?",
+                "Email for inquiries?"
+            ],
+            "responses": [
+                "You can contact us via email at info@college.com or call us at 8260077222, 7735699670 ."
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "Are there sports facilities?",
+                "Do you have a gym?",
+                "Sports activities on campus?"
+            ],
+            "responses": [
+                "Yes, we have a sports complex, gym, and various indoor and outdoor sports facilities."
+            ]
+        },
+        {
+            "tag": "internships",
+            "patterns": [
+                "Are internships available?",
+                "Does the college help with internships?",
+                "Internship opportunities?"
+            ],
+            "responses": [
+                "Yes, we have tie-ups with companies for internship programs to provide hands-on experience."
+            ]
+        },
+        {
+            "tag": "transport",
+            "patterns": [
+                "Is there a transport facility?",
+                "Do you provide bus services?",
+                "How to travel to the campus?"
+            ],
+            "responses": [
+                "Yes, we provide bus services across the city for students and faculty."
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "Are there cultural events?",
+                "Does the college host fests?",
+                "What extracurricular activities are there?"
+            ],
+            "responses": [
+                "Yes, we host annual fests, cultural events, and various clubs for extracurricular activities."
+            ]
+        },
+        {
+            "tag": "medical",
+            "patterns": [
+                "Is there a medical facility?",
+                "What if I fall sick on campus?",
+                "Do you have a health center?"
+            ],
+            "responses": [
+                "Yes, we have a medical center on campus with doctors available 24/7."
+            ]
+        },
+        {
+            "tag": "exam",
+            "patterns": [
+                "When are the exams?",
+                "Exam schedule?",
+                "How often are exams conducted?"
+            ],
+            "responses": [
+                "Exams are conducted semester-wise. Check the academic calendar for exact dates."
+            ]
+        },
+        {
+            "tag": "research",
+            "patterns": [
+                "Is there a research facility?",
+                "Do you support research work?",
+                "Research opportunities?"
+            ],
+            "responses": [
+                "Yes, our college has well-equipped research labs and funding for innovative projects."
+            ]
+        },
+        {
+            "tag": "centurion_info",
+            "patterns": [
+                "Tell me about Centurion University",
+                "What programs does Centurion offer?",
+                "Centurion University details?"
+            ],
+            "responses": [
+                "Centurion University is a multi-sector, private university known for its experiential learning approach. It offers a wide range of programs in engineering, technology, management, agriculture, and more."
+            ]
+        },
+        {
+            "tag": "centurion_admissions",
+            "patterns": [
+                "How to apply to Centurion University?",
+                "Centurion University admission process?",
+                "What are the entry requirements at Centurion?"
+            ],
+            "responses": [
+                "Admissions to Centurion University are based on entrance exams, merit, and interviews. You can apply online through their official website for specific programs."
+            ]
+        },
+        {
+            "tag": "centurion_fees",
+            "patterns": [
+                "What are the fees at Centurion University?",
+                "Centurion University fee structure?",
+                "Cost of studying at Centurion?"
+            ],
+            "responses": [
+                "The fee structure at Centurion University varies depending on the program. Please refer to their official website for detailed fee information."
+            ]
+        },
+        {
+            "tag": "centurion_scholarships",
+            "patterns": [
+                "Does Centurion University offer scholarships?",
+                "Scholarship options at Centurion?",
+                "How to get a scholarship at Centurion?"
+            ],
+            "responses": [
+                "Centurion University provides various scholarships based on merit and financial need. Check their financial aid section for eligibility and application details."
+            ]
+        },
+        {
+            "tag": "centurion_hostel",
+            "patterns": [
+                "Does Centurion University have hostels?",
+                "Accommodation at Centurion?",
+                "Hostel facilities at Centurion University?"
+            ],
+            "responses": [
+                "Yes, Centurion University offers hostel facilities for students with various amenities. Contact the university for specific details and charges."
+            ]
+        },
+        {
+            "tag": "centurion_courses",
+            "patterns": [
+                "What courses are offered at Centurion University?",
+                "Programs at Centurion?",
+                "List of Centurion University courses?"
+            ],
+            "responses": [
+                "Centurion University offers diverse programs including B.Tech, MBA, BBA, BSc Agriculture, and many more. Visit their website for a complete list."
+            ]
+        },
+        {
+            "tag": "centurion_faculty",
+            "patterns": [
+                "Centurion University faculty details?",
+                "Are the professors at Centurion experienced?",
+                "Who are the teachers at Centurion?"
+            ],
+            "responses": [
+                "Centurion University has a team of experienced faculty members with expertise in their respective fields."
+            ]
+        },
+        {
+            "tag": "centurion_contact",
+            "patterns": [
+                "How to contact Centurion University?",
+                "Centurion University contact details?",
+                "Phone number for Centurion University?"
+            ],
+            "responses": [
+                "You can contact Centurion University through their official website or by calling their contact number. Details are available on their website."
+            ]
+        },
+        {
+            "tag": "centurion_placements",
+            "patterns": [
+                "Centurion University placements?",
+                "Job opportunities at Centurion?",
+                "Does Centurion provide placements?"
+            ],
+            "responses": [
+                "Centurion University has a dedicated placement cell that facilitates job opportunities for students with various companies."
+            ]
+        },
+        {
+            "tag": "custom_inquiries",
+            "patterns": [
+                "What is the student-teacher ratio?",
+                "Tell me about the campus environment",
+                "Are there any student clubs?",
+                "What are the graduation rates?",
+                "Is there career counseling available?",
+                "What are the research areas in the college?",
+                "Does the college have international collaborations?",
+                "What are the industry tie-ups of the college?",
+                "Can you provide alumni testimonials?",
+                "What is the average class size?"
+
+            ],
+            "responses": [
+                "The student-teacher ratio is 20:1, ensuring personalized attention.",
+                "Our campus offers a vibrant and inclusive environment with a focus on student well-being.",
+                "Yes, we have a wide variety of student clubs catering to different interests.",
+                "Our graduation rates are consistently high, reflecting our commitment to student success.",
+                "Yes, we have a dedicated career counseling cell to guide students in their career paths.",
+                "Our college is actively involved in research areas like AI, Biotechnology, and Sustainable Energy.",
+                "Yes, we have several international collaborations for student and faculty exchange programs.",
+                "We have strong industry tie-ups with leading companies for internships and placements.",
+                "You can find alumni testimonials on our website and social media channels.",
+                "The average class size is around 40 students, fostering interactive learning."
+            ]
+        },
+        {
+            "tag": "sachin_tendulkar_bio",
+            "patterns": [
+              "Who is Sachin Tendulkar?",
+              "Tell me about Sachin Tendulkar",
+              "Sachin Tendulkar biography",
+              "Sachin Tendulkar info"
+            ],
+            "responses": [
+                "Sachin Ramesh Tendulkar is a former Indian international cricketer widely regarded as one of the greatest batsmen in the history of cricket. He is the highest run-scorer of all time in international cricket and the only player to have scored one hundred international centuries."
+            ]
+        },
+        {
+            "tag": "sachin_tendulkar_records",
+            "patterns": [
+              "What are Sachin Tendulkar's records?",
+              "Sachin Tendulkar's achievements",
+              "Sachin Tendulkar's milestones",
+              "Sachin Tendulkar's stats"
+             ],
+             "responses": [
+                "Sachin Tendulkar holds numerous records, including the most runs in both Test and ODI cricket, the most centuries in international cricket, and the only player to score 100 international centuries. He also holds the record for most Test matches and ODI matches played."
+            ]
+        },
+        {
+            "tag": "sachin_tendulkar_debut",
+            "patterns": [
+                "When did Sachin Tendulkar make his debut?",
+                " Sachin Tendulkar's first match",
+                "Sachin Tendulkar's debut date"
+            ],
+            "responses": [
+                "Sachin Tendulkar made his Test debut on November 15, 1989, against Pakistan in Karachi, at the age of 16. His ODI debut was on December 18, 1989, also against Pakistan."
+            ]
+        },
+        {
+            "tag": "sachin_tendulkar_retirement",
+            "patterns": [
+                "When did Sachin Tendulkar retire?",
+                "Sachin Tendulkar's retirement date",
+                "Sachin Tendulkar's last match"
+            ],
+             "responses": [
+                "Sachin Tendulkar retired from international cricket on November 16, 2013, after playing his 200th Test match against West Indies at the Wankhede Stadium in Mumbai."
+             ]
+        },
+        {
+            "tag": "sachin_tendulkar_awards",
+            "patterns": [
+                "What awards did Sachin Tendulkar receive?",
+                "Sachin Tendulkar's awards",
+                "Awards won by Sachin Tendulkar"
+            ],
+            "responses": [
+                "Sachin Tendulkar has received numerous awards, including the Bharat Ratna (India's highest civilian award), the Arjuna Award, the Rajiv Gandhi Khel Ratna, and the Padma Vibhushan. He has also been awarded the ICC Player of the Year and the Sir Garfield Sobers Trophy."
+            ]
+        },
+        {
+        "tag": "sachin_tendulkar_test_stats",
+        "patterns": [
+          "Sachin Tendulkar Test statistics",
+          "Sachin Tendulkar Test runs",
+          "Sachin Tendulkar Test centuries"
+        ],
+        "responses": [
+          "In Test cricket, Sachin Tendulkar scored 15,921 runs in 200 matches, with 51 centuries and 68 half-centuries. His highest Test score was 248 not out."
+        ]
+      },
+        {
+        "tag": "sachin_tendulkar_odi_stats",
+        "patterns": [
+          "Sachin Tendulkar ODI statistics",
+          "Sachin Tendulkar ODI runs",
+          "Sachin Tendulkar ODI centuries"
+        ],
+        "responses": [
+          "In ODI cricket, Sachin Tendulkar scored 18,426 runs in 463 matches, with 49 centuries and 96 half-centuries. His highest ODI score was 200 not out."
+        ]
+      },
+      {
+        "tag": "sachin_tendulkar_family",
+        "patterns": [
+            "Sachin Tendulkar's family",
+            "Sachin Tendulkar's wife",
+            "Sachin Tendulkar's children"
+        ],
+        "responses":[
+            "Sachin Tendulkar is married to Anjali Tendulkar, and they have two children, Sara Tendulkar and Arjun Tendulkar."
+        ]
+      },
+      {
+        "tag": "sachin_tendulkar_nicknames",
+        "patterns": [
+            "What are Sachin Tendulkar's nicknames?",
+            "Sachin Tendulkar nicknames",
+            "Little Master"
+        ],
+        "responses":[
+            "Sachin Tendulkar is often referred to as 'Little Master' or 'Master Blaster'."
+        ]
+       },
+        {
+        "tag": "artificial_intelligence",
+        "patterns": [
+        "What is artificial intelligence?",
+        "Explain AI.",
+        "How does AI work?",
+        "What are the applications of AI?",
+        "AI definition"
+        ],
+        "responses": [
+        "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction. AI applications range from virtual assistants to complex problem-solving in various industries."
+        ]
+        },
+        {
+        "tag": "machine_learning",
+        "patterns": [
+        "What is machine learning?",
+        "Explain ML.",
+        "How does machine learning work?",
+        "What are the types of machine learning?",
+        "ML definition"
+        ],
+        "responses": [
+        "Machine learning (ML) is a subset of AI that allows systems to learn from data without being explicitly programmed. ML algorithms can identify patterns, make predictions, and improve their performance over time. Types include supervised, unsupervised, and reinforcement learning."
+        ]
+        },
+        {
+        "tag": "cloud_computing",
+        "patterns": [
+        "What is cloud computing?",
+        "Explain cloud services.",
+        "What are the benefits of cloud computing?",
+        "Examples of cloud platforms.",
+        "Cloud computing definition"
+        ],
+        "responses": [
+        "Cloud computing provides on-demand access to computing resources, such as servers, storage, and applications, over the internet. Benefits include scalability, cost-effectiveness, and accessibility. Examples include AWS, Azure, and Google Cloud."
+        ]
+        },
+        {
+        "tag": "blockchain",
+        "patterns": [
+        "What is blockchain?",
+        "Explain blockchain technology.",
+        "How does blockchain work?",
+        "Applications of blockchain.",
+        "Blockchain definition"
+        ],
+        "responses": [
+        "Blockchain is a decentralized and distributed ledger technology that records transactions across many computers. It ensures security, transparency, and immutability. Applications include cryptocurrencies, supply chain management, and voting systems."
+        ]
+        },
+        {
+        "tag": "internet_of_things",
+        "patterns": [
+        "What is the Internet of Things?",
+        "Explain IoT.",
+        "How does IoT work?",
+        "Applications of IoT.",
+        "IoT definition"
+        ],
+        "responses": [
+        "The Internet of Things (IoT) refers to the network of physical devices embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. Applications include smart homes, industrial automation, and healthcare monitoring."
+        ]
+        },
+        {
+        "tag": "cybersecurity",
+        "patterns": [
+        "What is cybersecurity?",
+        "Explain network security.",
+        "How to protect against cyberattacks?",
+        "Types of cyber threats.",
+        "Cybersecurity definition"
+        ],
+        "responses": [
+        "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It involves measures to protect data confidentiality, integrity, and availability. Common threats include malware, phishing, and ransomware."
+        ]
+        },
+        {
+        "tag": "virtual_reality",
+        "patterns": [
+        "What is virtual reality?",
+        "Explain VR.",
+        "How does VR work?",
+        "Applications of virtual reality.",
+        "VR definition"
+        ],
+        "responses": [
+        "Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world. It uses computer technology to create a simulated environment. Applications include gaming, education, and training."
+        ]
+        },
+        {
+        "tag": "augmented_reality",
+        "patterns": [
+        "What is augmented reality?",
+        "Explain AR.",
+        "How does AR work?",
+        "Applications of augmented reality.",
+        "AR definition"
+        ],
+        "responses": [
+        "Augmented reality (AR) enhances the real world with computer-generated perceptual information, sometimes across multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. Applications include gaming, retail, and navigation."
+        ]
+        },
+        {
+        "tag": "quantum_computing",
+        "patterns": [
+        "What is quantum computing?",
+        "Explain quantum computers.",
+        "How does quantum computing work?",
+        "Applications of quantum computing.",
+        "Quantum computing definition"
+        ],
+        "responses": [
+        "Quantum computing uses quantum-mechanical phenomena such as superposition and entanglement to perform computation. It has the potential to solve complex problems faster than classical computers. Applications include cryptography, drug discovery, and materials science."
+        ]
+        },
+        {
+        "tag": "5g_technology",
+        "patterns": [
+        "What is 5G?",
+        "Explain 5G networks.",
+        "What are the benefits of 5G?",
+        "How does 5G work?",
+        "5G definition"
+        ],
+        "responses": [
+        "5G is the fifth generation of cellular network technology. It offers faster speeds, lower latency, and greater capacity compared to previous generations. Benefits include improved mobile broadband, enhanced IoT connectivity, and support for new applications like autonomous vehicles."
+        ]
+        },
+        {
+    "tag": "medical_symptoms",
+    "patterns": [
+      "What are the symptoms of a cold?",
+      "How do I know if I have the flu?",
+      "What are the signs of a heart attack?",
+      "Describe the symptoms of diabetes.",
+      "What are the symptoms of anxiety?"
+    ],
+    "responses": [
+      "Symptoms vary based on the condition. For a cold, expect a runny nose and sore throat. Flu symptoms include fever and body aches. Heart attack signs involve chest pain and shortness of breath. Diabetes can cause increased thirst and frequent urination. Anxiety may manifest as excessive worry and restlessness. If you're concerned about your health, consult a medical professional."
+    ]
+  },
+  {
+    "tag": "medical_treatment",
+    "patterns": [
+      "How do you treat a fever?",
+      "What medication can I take for a headache?",
+      "How to treat a burn at home?",
+      "What is the treatment for a sprained ankle?",
+      "How to reduce high blood pressure?"
+    ],
+    "responses": [
+      "Treatments depend on the condition. Fever can be lowered with acetaminophen or ibuprofen. Headaches may respond to over-the-counter pain relievers. Minor burns can be treated with cool water. A sprained ankle benefits from rest, ice, compression, and elevation (RICE). High blood pressure can be managed with lifestyle changes and medication. Always consult a doctor for personalized medical advice."
+    ]
+  },
+  {
+    "tag": "medical_diagnosis",
+    "patterns": [
+      "How can I know if I have strep throat?",
+      "How is diabetes diagnosed?",
+      "What tests are used to diagnose heart disease?",
+      "How do doctors diagnose anxiety?",
+      "What is the process of getting diagnosed with cancer?"
+    ],
+    "responses": [
+      "Diagnosis involves various methods. Strep throat requires a throat swab. Diabetes is diagnosed through blood tests. Heart disease diagnosis may involve ECGs and stress tests. Anxiety diagnosis relies on psychological evaluations. Cancer diagnosis uses biopsies and imaging. Consult a healthcare professional for accurate diagnosis."
+    ]
+  },
+    {
+        "tag": "first_aid",
+        "patterns": [
+            "What to do for a cut?",
+            "How to stop a nosebleed?",
+            "What to do if someone is choking?",
+            "How to treat a minor burn?",
+            "What to do for a bee sting?"
+        ],
+        "responses": [
+            "For a cut, clean it and apply pressure. To stop a nosebleed, pinch your nose and lean forward. If someone is choking, perform the Heimlich maneuver. Treat minor burns with cool water. For a bee sting, remove the stinger and apply a cold compress. Seek medical help for severe injuries."
+        ]
+    },
+        {
+    "tag": "cold_and_flu",
+    "patterns": [
+      "What are the symptoms of a cold?",
+      "How do I know if I have the flu?",
+      "Cold symptoms",
+      "Flu symptoms",
+      "Treatments for the common cold",
+      "Flu treatment options"
+    ],
+    "responses": [
+      "Cold symptoms include a runny nose, sore throat, and cough. Flu symptoms are similar but often include fever, body aches, and fatigue. Rest, fluids, and over-the-counter medications can help manage symptoms. Antiviral drugs may be prescribed for the flu, especially in high-risk individuals."
+    ]
+  },
+  {
+    "tag": "diabetes",
+    "patterns": [
+      "What is diabetes?",
+      "Symptoms of diabetes",
+      "Types of diabetes",
+      "Diabetes treatment",
+      "How is diabetes managed?"
+    ],
+    "responses": [
+      "Diabetes is a chronic condition affecting blood sugar regulation. Symptoms include increased thirst, frequent urination, and fatigue. There are two main types: type 1 and type 2. Treatment involves diet, exercise, blood sugar monitoring, and medication, including insulin."
+    ]
+  },
+  {
+    "tag": "heart_disease",
+    "patterns": [
+      "What are the signs of heart disease?",
+      "Symptoms of heart attack",
+      "Causes of heart disease",
+      "Heart disease prevention",
+      "Treatment for heart disease"
+    ],
+    "responses": [
+      "Heart disease includes various conditions affecting the heart. Symptoms of a heart attack can include chest pain, shortness of breath, and nausea. Risk factors include high cholesterol, high blood pressure, and smoking. Prevention involves a healthy lifestyle. Treatment may include medication, procedures, or surgery."
+    ]
+  },
+  {
+    "tag": "anxiety",
+    "patterns": [
+      "What are the symptoms of anxiety?",
+      "Anxiety disorders",
+      "Treatment for anxiety",
+      "How to manage anxiety",
+      "Signs of anxiety"
+    ],
+    "responses": [
+      "Anxiety symptoms include excessive worry, restlessness, and difficulty concentrating. Anxiety disorders are a group of mental health conditions. Treatment involves therapy, medication, and lifestyle changes."
+    ]
+  },
+  {
+    "tag": "hypertension",
+    "patterns": [
+      "What is hypertension?",
+      "High blood pressure symptoms",
+      "Hypertension treatment",
+      "How to lower blood pressure",
+      "Risks of high blood pressure"
+    ],
+    "responses": [
+      "Hypertension, or high blood pressure, often has no symptoms. It increases the risk of heart disease and stroke. Treatment involves lifestyle changes, such as diet and exercise, and medication."
+    ]
+  },
+  {
+    "tag": "asthma",
+    "patterns": [
+      "What is asthma?",
+      "Asthma symptoms",
+      "Asthma treatment",
+      "Asthma triggers",
+      "How to manage asthma"
+    ],
+    "responses": [
+      "Asthma is a chronic respiratory condition. Symptoms include wheezing, coughing, and shortness of breath. Treatment involves inhalers and other medications to control inflammation and open airways. Avoiding triggers is also important."
+    ]
+  },
+  {
+    "tag": "allergies",
+    "patterns": [
+      "What are allergies?",
+      "Allergy symptoms",
+      "Allergy treatment",
+      "Types of allergies",
+      "How to manage allergies"
+    ],
+    "responses": [
+      "Allergies are immune system reactions to substances called allergens. Symptoms vary depending on the allergen and can include sneezing, itching, and rashes. Treatment involves avoiding allergens, medications like antihistamines, and immunotherapy."
+    ]
+  },
+  {
+    "tag": "arthritis",
+    "patterns": [
+      "What is arthritis?",
+      "Arthritis symptoms",
+      "Arthritis treatment",
+      "Types of arthritis",
+      "How to manage arthritis pain"
+    ],
+    "responses": [
+      "Arthritis is a condition causing joint inflammation. Symptoms include pain, stiffness, and swelling. There are many types, including osteoarthritis and rheumatoid arthritis. Treatment involves medication, physical therapy, and lifestyle changes."
+    ]
+  },
+  {
+    "tag": "cancer",
+    "patterns": [
+      "What is cancer?",
+      "Types of cancer",
+      "Cancer symptoms",
+      "Cancer treatment",
+      "Cancer prevention"
+    ],
+    "responses": [
+      "Cancer is a disease involving abnormal cell growth. There are many types, each with its own symptoms. Treatment options include surgery, radiation therapy, chemotherapy, and immunotherapy. Prevention involves a healthy lifestyle and screenings."
+    ]
+  },
+        {
+    "tag": "secondary_education_10th",
+    "patterns": [
+      "What is 10th grade?",
+      "What are the subjects in 10th grade?",
+      "What is the importance of 10th grade?",
+      "What are the exams in 10th grade?",
+      "What are the career options after 10th grade?"
+    ],
+    "responses": [
+      "10th grade is a crucial year in secondary education, focusing on core subjects like mathematics, science, social studies, and language arts. It prepares students for higher education or vocational training. Exams like the SSC or equivalent are often conducted at this level."
+    ]
+  },
+  {
+    "tag": "secondary_education_12th",
+    "patterns": [
+      "What is 12th grade?",
+      "What are the streams in 12th grade?",
+      "What are the exams in 12th grade?",
+      "What are the career options after 12th grade?",
+      "What is the importance of 12th grade?"
+    ],
+    "responses": [
+      "12th grade marks the end of secondary education. Students typically choose streams like science, commerce, or arts. Exams like the HSC or equivalent determine eligibility for higher education. It's a key step towards college or university."
+    ]
+  },
+  {
+    "tag": "bachelor_of_arts_ba",
+    "patterns": [
+      "What is a BA degree?",
+      "What subjects are in a BA program?",
+      "What are the career options after a BA?",
+      "What is the duration of a BA?",
+      "What are the specializations in BA?"
+    ],
+    "responses": [
+      "A Bachelor of Arts (BA) is an undergraduate degree focusing on humanities and social sciences. Subjects include history, literature, sociology, and languages. Career options range from journalism to social work. The program typically lasts three to four years."
+    ]
+  },
+  {
+    "tag": "bachelor_of_science_bsc",
+    "patterns": [
+      "What is a BSc degree?",
+      "What subjects are in a BSc program?",
+      "What are the career options after a BSc?",
+      "What is the duration of a BSc?",
+      "What are the specializations in BSc?"
+    ],
+    "responses": [
+      "A Bachelor of Science (BSc) is an undergraduate degree focusing on science and mathematics. Subjects include physics, chemistry, biology, and computer science. Career options include research, technology, and healthcare. The program typically lasts three to four years."
+    ]
+  },
+  {
+    "tag": "bachelor_of_technology_btech",
+    "patterns": [
+      "What is a BTech degree?",
+      "What are the specializations in BTech?",
+      "What are the career options after a BTech?",
+      "What is the duration of a BTech?",
+      "What are the subjects in BTech?"
+    ],
+    "responses": [
+      "A Bachelor of Technology (BTech) is an undergraduate engineering degree. Specializations include computer science, mechanical, civil, and electrical engineering. Career options are in various engineering fields. The program typically lasts four years."
+    ]
+  },
+  {
+    "tag": "master_of_technology_mtech",
+    "patterns": [
+      "What is an MTech degree?",
+      "What are the specializations in MTech?",
+      "What are the career options after an MTech?",
+      "What is the duration of an MTech?",
+      "What are the subjects in MTech?"
+    ],
+    "responses": [
+      "A Master of Technology (MTech) is a postgraduate engineering degree. It offers advanced knowledge in specialized engineering fields. Career options include research, development, and advanced engineering roles. The program typically lasts two years."
+    ]
+  },
+  {
+    "tag": "bachelor_of_business_administration_bba",
+    "patterns": [
+      "What is a BBA degree?",
+      "What are the subjects in a BBA program?",
+      "What are the career options after a BBA?",
+      "What is the duration of a BBA?",
+      "What are the specializations in BBA?"
+    ],
+    "responses": [
+      "A Bachelor of Business Administration (BBA) is an undergraduate degree focusing on business management. Subjects include marketing, finance, and human resources. Career options are in business and management roles. The program typically lasts three years."
+    ]
+  },
+  {
+    "tag": "master_of_business_administration_mba",
+    "patterns": [
+      "What is an MBA degree?",
+      "What are the specializations in MBA?",
+      "What are the career options after an MBA?",
+      "What is the duration of an MBA?",
+      "What are the subjects in MBA?"
+    ],
+    "responses": [
+      "A Master of Business Administration (MBA) is a postgraduate degree focusing on advanced business management. Specializations include finance, marketing, and operations. Career options are in senior management and leadership roles. The program typically lasts one to two years."
+    ]
+  },
+    {
+    "tag": "medical_bachelor_mbbs",
+    "patterns": [
+      "What is an MBBS degree?",
+      "What are the subjects in MBBS?",
+      "What are the career options after MBBS?",
+      "What is the duration of MBBS?",
+      "What are the specializations after MBBS?"
+    ],
+    "responses": [
+      "A Bachelor of Medicine, Bachelor of Surgery (MBBS) is an undergraduate medical degree. Subjects include anatomy, physiology, and pathology. Career options include practicing medicine, surgery, and medical research. The program typically lasts five and a half years."
+    ]
+  },
+    {
+    "tag": "master_of_science_msc",
+    "patterns": [
+      "What is an MSc degree?",
+      "What are the subjects in MSc?",
+      "What are the career options after MSc?",
+      "What is the duration of MSc?",
+      "What are the specializations in MSc?"
+    ],
+    "responses": [
+      "A Master of Science (MSc) is a postgraduate degree in science-related fields. Specializations include physics, chemistry, biology, and mathematics. Career options include research, academia, and specialized scientific roles. The program typically lasts two years."
+    ]
+    },
+        {
+    "tag": "master_of_business_administration_mba",
+    "patterns": [
+      "What is an MBA degree?",
+      "What are the specializations in MBA?",
+      "What are the career options after an MBA?",
+      "What is the duration of an MBA?",
+      "What are the subjects in MBA?",
+      "Tell me about MBA programs.",
+      "Explain the benefits of an MBA.",
+      "What are the admission requirements for an MBA?",
+      "What is the average salary after an MBA?",
+      "What are the top MBA schools?"
+    ],
+    "responses": [
+      "A Master of Business Administration (MBA) is a postgraduate degree focusing on advanced business management. Specializations include finance, marketing, and operations. Career options are in senior management and leadership roles. The program typically lasts one to two years. Benefits include career advancement, higher salary potential, and networking opportunities. Admission requirements often include a bachelor's degree, work experience, and GMAT/GRE scores. Average salaries vary by industry and location. Top MBA schools include Harvard, Stanford, and Wharton."
+    ]
+  },
+  {
+    "tag": "computer_science_cs",
+    "patterns": [
+      "What is computer science?",
+      "What are the branches of computer science?",
+      "What are the career options in computer science?",
+      "What programming languages should I learn?",
+      "What is the difference between computer science and software engineering?",
+      "What are the applications of computer science?",
+      "What are the latest trends in computer science?",
+      "What are the best universities for computer science?",
+      "What are the required skills for a computer scientist?",
+      "What is artificial intelligence?"
+    ],
+    "responses": [
+      "Computer science is the study of computers and computational systems. Branches include artificial intelligence, software engineering, and data science. Career options are diverse, including software development, data analysis, and cybersecurity. Popular programming languages include Python, Java, and C++. Computer science focuses on the theoretical foundations of computing, while software engineering focuses on the practical aspects of software development. Applications are vast, from web development to robotics. Latest trends include machine learning and cloud computing. Top universities include MIT, Stanford, and Carnegie Mellon. Required skills include problem-solving, logical thinking, and programming proficiency. Artificial intelligence is a branch of computer science focused on creating intelligent machines."
+    ]
+  },
+  {
+    "tag": "medicine_medical",
+    "patterns": [
+      "What is medicine?",
+      "What are the branches of medicine?",
+      "What are the career options in medicine?",
+      "What is the difference between a doctor and a surgeon?",
+      "What are the common medical specialties?",
+      "What are the latest medical advancements?",
+      "What are the best medical schools?",
+      "What are the required skills for a doctor?",
+      "What are the common medical procedures?",
+      "What are the ethical considerations in medicine?"
+    ],
+    "responses": [
+      "Medicine is the science and practice of the diagnosis, treatment, and prevention of disease. Branches include cardiology, neurology, and pediatrics. Career options include general practice, surgery, and research. A doctor diagnoses and treats illnesses, while a surgeon performs operations. Common specialties include internal medicine, family medicine, and dermatology. Latest advancements include gene therapy and robotic surgery. Top medical schools include Harvard, Johns Hopkins, and Stanford. Required skills include empathy, critical thinking, and communication. Common procedures include blood tests and X-rays. Ethical considerations include patient confidentiality and informed consent."
+    ]
+  },
+  {
+    "tag": "law_legal",
+    "patterns": [
+      "What is law?",
+      "What are the branches of law?",
+      "What are the career options in law?",
+      "What is the difference between a lawyer and a judge?",
+      "What are the common legal specialties?",
+      "What are the latest legal developments?",
+      "What are the best law schools?",
+      "What are the required skills for a lawyer?",
+      "What are the common legal procedures?",
+      "What are the ethical considerations in law?"
+    ],
+    "responses": [
+      "Law is a system of rules created and enforced through social or governmental institutions to regulate behavior. Branches include criminal law, civil law, and constitutional law. Career options include private practice, public service, and corporate law. A lawyer represents clients, while a judge presides over court proceedings. Common specialties include corporate law, criminal law, and family law. Latest developments include changes in intellectual property law and data privacy regulations. Top law schools include Harvard, Yale, and Stanford. Required skills include critical thinking, research, and advocacy. Common procedures include trials and settlements. Ethical considerations include client confidentiality and conflict of interest."
+    ]
+  },
+  {
+    "tag": "engineering",
+    "patterns": [
+      "What is engineering?",
+      "What are the branches of engineering?",
+      "What are the career options in engineering?",
+      "What is the difference between civil engineering and mechanical engineering?",
+      "What are the common engineering specialties?",
+      "What are the latest engineering advancements?",
+      "What are the best engineering schools?",
+      "What are the required skills for an engineer?",
+      "What are common engineering projects?",
+      "What are the ethical considerations in engineering?"
+    ],
+    "responses": [
+      "Engineering is the application of scientific and mathematical principles to design, build, and maintain structures, machines, and systems. Branches include civil, mechanical, and electrical engineering. Career options include design, research, and project management. Civil engineering focuses on infrastructure, while mechanical engineering focuses on machines and energy systems. Common specialties include aerospace engineering, chemical engineering, and computer engineering. Latest advancements include 3D printing and nanotechnology. Top engineering schools include MIT, Stanford, and Caltech. Required skills include problem-solving, analytical thinking, and teamwork. Common projects include bridges, buildings, and software systems. Ethical considerations include public safety and environmental impact."
+    ]
+  },
+  {
+    "tag": "psychology",
+    "patterns": [
+      "What is psychology?",
+      "What are the branches of psychology?",
+      "What are the career options in psychology?",
+      "What is the difference between clinical psychology and counseling psychology?",
+      "What are the common psychological disorders?",
+      "What are the latest psychological research findings?",
+      "What are the best psychology schools?",
+      "What are the required skills for a psychologist?",
+      "What are the common psychological therapies?",
+      "What are the ethical considerations in psychology?"
+    ],
+    "responses": [
+      "Psychology is the scientific study of the human mind and behavior. Branches include clinical, developmental, and social psychology. Career options include therapy, research, and education. Clinical psychology focuses on diagnosing and treating mental disorders, while counseling psychology focuses on helping individuals with everyday problems. Common disorders include depression and anxiety. Latest research findings include insights into brain plasticity and cognitive processes. Top psychology schools include Harvard, Stanford, and Yale. Required skills include empathy, communication, and critical thinking. Common therapies include cognitive behavioral therapy and psychoanalysis. Ethical considerations include patient confidentiality and informed consent."
+    ]
+    },
+         {
+    "tag": "primary_education",
+    "patterns": [
+      "What is primary education?",
+      "What subjects are taught in primary school?",
+      "What is the age range for primary education?",
+      "What are the goals of primary education?",
+      "What teaching methods are used in primary education?"
+    ],
+    "responses": [
+      "Primary education, also known as elementary education, is the first stage of formal education. It typically covers ages 5-11. Subjects taught include reading, writing, mathematics, science, and social studies. The goals are to develop basic literacy, numeracy, and social skills. Teaching methods often involve interactive learning, group activities, and hands-on projects."
+    ]
+  },
+  {
+    "tag": "secondary_education",
+    "patterns": [
+      "What is secondary education?",
+      "What subjects are taught in secondary school?",
+      "What is the age range for secondary education?",
+      "What are the goals of secondary education?",
+      "What are the different types of secondary schools?"
+    ],
+    "responses": [
+      "Secondary education, also known as high school or middle school, follows primary education. It typically covers ages 12-18. Subjects include mathematics, science, languages, history, and geography. The goals are to prepare students for higher education or vocational training. Types of secondary schools include public schools, private schools, and vocational schools."
+    ]
+  },
+  {
+    "tag": "higher_education",
+    "patterns": [
+      "What is higher education?",
+      "What are the different types of higher education institutions?",
+      "What degrees are offered in higher education?",
+      "What are the benefits of higher education?",
+      "What are the admission requirements for higher education?"
+    ],
+    "responses": [
+      "Higher education refers to education beyond secondary school, typically at universities or colleges. Types of institutions include universities, colleges, and technical schools. Degrees offered include bachelor's, master's, and doctoral degrees. Benefits include career advancement, personal growth, and increased earning potential. Admission requirements vary but often include high school transcripts, standardized test scores, and application essays."
+    ]
+  },
+  {
+    "tag": "vocational_education",
+    "patterns": [
+      "What is vocational education?",
+      "What skills are taught in vocational education?",
+      "What are the career opportunities after vocational education?",
+      "What are the benefits of vocational education?",
+      "What are the different trades taught in vocational education?"
+    ],
+    "responses": [
+      "Vocational education, also known as trade school, focuses on practical skills for specific occupations. Skills taught include carpentry, plumbing, welding, and culinary arts. Career opportunities include skilled trades, technical jobs, and entrepreneurship. Benefits include hands-on training, quick entry into the workforce, and specialized skills. Different trades include automotive repair, electrical work, and healthcare support."
+    ]
+  },
+  {
+    "tag": "online_education",
+    "patterns": [
+      "What is online education?",
+      "What are the benefits of online education?",
+      "What are the different types of online courses?",
+      "What are the technologies used in online education?",
+      "How do online classes compare to traditional classes?"
+    ],
+    "responses": [
+      "Online education, also known as e-learning, delivers educational content via the internet. Benefits include flexibility, accessibility, and affordability. Types of courses include MOOCs, online degrees, and virtual classrooms. Technologies used include video conferencing, learning management systems, and digital content. Online classes offer flexibility but may lack the in-person interaction of traditional classes."
+    ]
+  },
+    {
+    "tag": "special_education",
+    "patterns": [
+      "What is special education?",
+      "What are the different types of special education needs?",
+      "What are the goals of special education?",
+      "What are the teaching strategies used in special education?",
+      "What are the benefits of inclusive education?"
+    ],
+    "responses": [
+      "Special education is designed to meet the unique needs of students with disabilities. Types of needs include learning disabilities, physical disabilities, and emotional/behavioral disorders. Goals include maximizing student potential, fostering independence, and providing appropriate support. Teaching strategies include individualized education plans (IEPs), adaptive technologies, and specialized instruction. Inclusive education promotes participation and belonging for all students."
+    ]
+  },
+    {
+    "tag": "educational_technology",
+    "patterns": [
+      "What is educational technology?",
+      "What are the benefits of using technology in education?",
+      "What are the different types of educational technology?",
+      "What are the challenges of implementing educational technology?",
+      "How can technology enhance learning outcomes?"
+    ],
+    "responses": [
+      "Educational technology, also known as EdTech, refers to the use of technology to improve teaching and learning. Benefits include increased engagement, personalized learning, and access to resources. Types of EdTech include interactive whiteboards, learning apps, and virtual reality. Challenges include digital divide, teacher training, and cost. Technology can enhance learning through interactive simulations, adaptive learning platforms, and collaborative tools."
+    ]
+    },
+        {
+    "tag": "football",
+    "patterns": [
+      "What is football?",
+      "What are the rules of football?",
+      "Who are some famous football players?",
+      "What are the major football leagues?",
+      "How many players are on a football team?"
+    ],
+    "responses": [
+      "Football, also known as soccer, is a team sport played with a spherical ball between two teams of 11 players. The objective of the game is to score goals by kicking or heading the ball into the opposing team's goal.",
+      "Rules include offside, fouls, and penalties. Famous players include Lionel Messi, Cristiano Ronaldo, and Pelé. Major leagues are the Premier League, La Liga, and Serie A. A team has 11 players on the field."
+    ]
+  },
+  {
+    "tag": "basketball",
+    "patterns": [
+      "What is basketball?",
+      "What are the rules of basketball?",
+      "Who are some famous basketball players?",
+      "What are the major basketball leagues?",
+      "How many players are on a basketball team?"
+    ],
+    "responses": [
+      "Basketball is a team sport in which two teams of five active players each try to score points against one another by throwing a basketball through a 10-foot high hoop under organized rules.",
+      "Rules include traveling, double dribbling, and fouls. Famous players include Michael Jordan, LeBron James, and Kobe Bryant. The major league is the NBA. A team has 5 players on the court."
+    ]
+  },
+  {
+    "tag": "tennis",
+    "patterns": [
+      "What is tennis?",
+      "What are the rules of tennis?",
+      "Who are some famous tennis players?",
+      "What are the major tennis tournaments?",
+      "What are the different types of tennis courts?"
+    ],
+    "responses": [
+      "Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). The objective of the game is to play the ball in such a way that it travels into the opponent's court and they are not able to play it back correctly.",
+      "Rules include serving, scoring, and faults. Famous players include Roger Federer, Serena Williams, and Rafael Nadal. Major tournaments are Wimbledon, the US Open, and the French Open. Court types include grass, clay, and hard courts."
+    ]
+  },
+  {
+    "tag": "cricket",
+    "patterns": [
+      "What is cricket?",
+      "What are the rules of cricket?",
+      "Who are some famous cricket players?",
+      "What are the major cricket tournaments?",
+      "How many players are on a cricket team?"
+    ],
+    "responses": [
+      "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre pitch with a wicket at each end.",
+      "Rules include batting, bowling, and fielding. Famous players include Sachin Tendulkar, Don Bradman, and Viv Richards. Major tournaments are the Cricket World Cup and the Ashes. A team has 11 players."
+    ]
+  },
+  {
+    "tag": "swimming",
+    "patterns": [
+      "What is swimming?",
+      "What are the different swimming strokes?",
+      "Who are some famous swimmers?",
+      "What are the major swimming competitions?",
+      "What are the benefits of swimming?"
+    ],
+    "responses": [
+      "Swimming is an individual or team racing sport that requires the use of one's entire body to move through water.",
+      "Strokes include freestyle, backstroke, breaststroke, and butterfly. Famous swimmers include Michael Phelps, Katie Ledecky, and Ian Thorpe. Major competitions are the Olympics and the World Aquatics Championships. Benefits include cardiovascular fitness and muscle strength."
+    ]
+  },
+  {
+    "tag": "golf",
+    "patterns": [
+      "What is golf?",
+      "What are the rules of golf?",
+      "Who are some famous golfers?",
+      "What are the major golf tournaments?",
+      "What are the different types of golf clubs?"
+    ],
+    "responses": [
+      "Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible.",
+      "Rules include scoring, penalties, and etiquette. Famous golfers include Tiger Woods, Jack Nicklaus, and Annika Sörenstam. Major tournaments are the Masters, the US Open, and the British Open. Club types include drivers, irons, and putters."
+    ]
+  },
+  {
+    "tag": "volleyball",
+    "patterns": [
+      "What is volleyball?",
+      "What are the rules of volleyball?",
+      "Who are some famous volleyball players?",
+      "What are the major volleyball leagues?",
+      "How many players are on a volleyball team?"
+    ],
+    "responses": [
+      "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules.",
+      "Rules include serving, setting, and spiking. Famous players include Karch Kiraly, Misty May-Treanor, and Giba. Major leagues include the FIVB World League. A team has 6 players on the court."
+    ]
+    }
+    ]
+}
